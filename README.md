@@ -1,5 +1,5 @@
 # natpac_app
-An enterprise-grade, AI-powered Flutter application for intelligent transportation data collection and analysis, developed for **NATPAC (Nagpur Area Transport Planning and Coordination)**.  
+An enterprise-grade, AI-powered Flutter application for intelligent transportation data collection and analysis, developed for **NATPAC (National Transportation Planning and Research Centre)**.  
 NATPAC Trip Tracker transforms everyday travel into actionable mobility insights using **real-time GPS tracking**, **on-device machine learning**, **sensor fusion**, and **privacy-first data processing** — enabling smarter, more sustainable, and more efficient cities.
 
 ## Getting Started
