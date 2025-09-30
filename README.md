@@ -20,7 +20,7 @@ This project is a Flutter-based mobile application designed to automatically det
 ---
 
 ## 🏗️ Project Architecture
-Flutter Mobile App (Frontend)
+```Flutter Mobile App (Frontend)
 ├─ Authentication (Firebase Auth)
 ├─ Real-Time Location Service (geolocator + Kalman filtering)
 ├─ Activity Recognition Engine (on-device ML)
@@ -35,7 +35,7 @@ Backend Infrastructure
 ├─ BigQuery / Snowflake (analytical warehouse)
 ├─ ETL Pipeline (Cloud Functions / Airflow)
 └─ Scientist Dashboard (Web-based analytics portal)
-
+```
 
 
 ---
