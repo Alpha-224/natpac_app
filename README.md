@@ -20,21 +20,22 @@ This project is a Flutter-based mobile application designed to automatically det
 ---
 
 ## 🏗️ Project Architecture
-Flutter Mobile App
-├── Authentication (Firebase Auth)
-├── Real-Time Location Service (geolocator + Kalman filtering)
-├── Activity Recognition Engine (on-device ML)
-├── Local Data Storage (Hive NoSQL)
-├── Background Services (flutter_background_service, WorkManager)
-├── Map Integration (OpenStreetMap + OSRM)
-└── Analytics & Visualization (fl_chart)
+Flutter Mobile App (Frontend)
+├─ Authentication (Firebase Auth)
+├─ Real-Time Location Service (geolocator + Kalman filtering)
+├─ Activity Recognition Engine (on-device ML)
+├─ Local Data Storage (Hive NoSQL)
+├─ Background Services (flutter_background_service, WorkManager)
+├─ Map Integration (OpenStreetMap + OSRM)
+└─ Analytics & Visualization (fl_chart)
 
 Backend Infrastructure
-├── Firebase (Auth, Storage)
-├── PostgreSQL / TimescaleDB (trip metadata + time-series data)
-├── BigQuery / Snowflake (analytical warehouse)
-├── ETL Pipeline (Cloud Functions / Airflow)
-└── Scientist Dashboard (Web-based analytics portal)
+├─ Firebase (Auth, Storage)
+├─ PostgreSQL / TimescaleDB (trip metadata + time-series data)
+├─ BigQuery / Snowflake (analytical warehouse)
+├─ ETL Pipeline (Cloud Functions / Airflow)
+└─ Scientist Dashboard (Web-based analytics portal)
+
 
 
 ---
