@@ -93,7 +93,7 @@ flutter pub get
 flutter run
 ```
 
-### Usage
+## 📱 Usage
 
 1. Sign Up / Log In – via Firebase Authentication.
 
@@ -108,7 +108,7 @@ flutter run
 6. Research Dashboard – planners can filter, analyze, and export anonymized data.
 
 
-### Privacy & Security
+## 🔐 Privacy & Security
 
 Consent-first: Data collection starts only after explicit user consent.
 
