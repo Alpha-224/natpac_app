@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "405905727425",
+    "project_id": "natpac-app",
+    "storage_bucket": "natpac-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405905727425:android:cfc67a0617d5c305dcd940",
+        "android_client_info": {
+          "package_name": "com.natpac.trip_tracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPamuwpTvZul5fEIxTyNYu4KxeE6eyZSE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405905727425:android:b15d4434ecc36821dcd940",
+        "android_client_info": {
+          "package_name": "com.sih.natpac_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPamuwpTvZul5fEIxTyNYu4KxeE6eyZSE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

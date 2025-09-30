@@ -1,0 +1,79 @@
+name: natpac_trip_tracker
+description: "A Flutter application to capture trip information for NATPAC with advanced location tracking and analytics."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  
+  # Firebase for User Authentication (KEEP YOUR EXISTING)
+  firebase_core: ^4.1.1
+  firebase_auth: ^6.1.0
+  
+  # State Management - DUAL APPROACH
+  flutter_bloc: ^9.1.1          # Keep for your existing auth/navigation
+  equatable: ^2.0.5             # Keep for your BLoC
+  provider: ^6.1.2              # Add for friend's services
+  
+  # ADVANCED LOCATION TRACKING SYSTEM (Friend's)
+  geolocator: ^14.0.2
+  permission_handler: ^12.0.1
+  flutter_activity_recognition: ^4.0.0
+  
+  # BACKGROUND TRACKING & SERVICES
+  flutter_background_service: ^5.0.10
+  flutter_background_service_android: ^6.2.7
+  flutter_background_service_ios: ^5.0.2
+  
+  # PROFESSIONAL DATA STORAGE
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  sqflite: ^2.3.0              # Keep if you want dual storage
+  path_provider: ^2.1.1
+  shared_preferences: ^2.2.2
+  
+  # ADVANCED ANALYTICS & VISUALIZATION
+  fl_chart: ^0.69.0            # Friend's professional charts
+  syncfusion_flutter_charts: ^31.1.21  # Keep your existing charts
+  syncfusion_flutter_core: ^31.1.21
+  
+  # MAPPING & LOCATION
+  flutter_map: ^8.2.2
+  latlong2: ^0.9.1
+  
+  # NETWORKING & APIS
+  http: ^1.2.1
+  
+  # CLUSTERING & ANALYTICS
+  dbscan_dart: ^2.0.1          # Your existing clustering
+  collection: ^1.18.0          # Friend's collection utilities
+  
+  # NOTIFICATIONS (Your existing + background integration)
+  flutter_local_notifications: ^17.2.2
+  
+  # UTILITIES
+  intl: ^0.19.0
+  uuid: ^4.5.1                 # For friend's ID generation
+  sensors_plus: ^5.0.1         # Keep your sensors if needed
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  
+  # CODE GENERATION FOR HIVE
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.13
+
+flutter:
+  uses-material-design: true
+  
+  # Add your assets here when ready
+  # assets:
+  #   - assets/images/
+  #   - assets/icons/
